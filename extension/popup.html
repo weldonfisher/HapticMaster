@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MX4 Haptics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="glass-container">
+    <header>
+      <div class="brand">
+        <img src="icon.png" alt="Logo" class="logo">
+        <div>
+          <h1>Haptic Master</h1>
+          <div class="status-indicator">
+            <span class="dot"></span> <span id="connectionStatus">Connecting...</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-controls">
+        <label class="switch">
+          <input type="checkbox" id="enableExtension">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <!-- Hover Card -->
+    <div class="card glass">
+      <div class="card-header">
+        Hover Effect
+      </div>
+      <div class="control-group">
+        <div class="pattern-row">
+          <select id="hoverPattern">
+            <option value="none">Disabled</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="pulse">Pulse</option>
+            <option value="heartbeat">Heartbeat</option>
+            <option value="triple">Triple</option>
+          </select>
+          <button id="testHover" class="test-btn">Try</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Click Card -->
+    <div class="card glass">
+      <div class="card-header">
+        Click Effect
+      </div>
+      <div class="control-group">
+        <div class="pattern-row">
+          <select id="clickPattern">
+            <option value="none">Disabled</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="pulse">Pulse</option>
+            <option value="heartbeat">Heartbeat</option>
+            <option value="triple">Triple</option>
+          </select>
+          <button id="testClick" class="test-btn">Try</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://chamuka.is-a.dev" target="_blank">Connect</a>
+      <span class="separator"> </span>
+      <a href="https://buymeacoffee.com/chamuka" target="_blank" class="donate">Buy me a coffee</a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
