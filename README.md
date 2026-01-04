@@ -6,6 +6,7 @@
 **Feel Your Mac.** Immersive Haptic Feedback for Logitech MX Master Users.
 
 > 🌐 **Website:** [hapticmaster.vercel.app](https://hapticmaster.vercel.app/)
+
 > 🌐 **Contact:** [chamuka.is-a.dev](https://chamuka.is-a.dev)
 
 
