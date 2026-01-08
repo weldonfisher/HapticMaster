@@ -5,10 +5,11 @@ struct HapticMasterApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
-        MenuBarExtra("Haptic Master", systemImage: "magicmouse.fill") {
+        WindowGroup {
             ContentView()
         }
-        .menuBarExtraStyle(.window)
+        // .windowStyle(.hiddenTitleBar) // Optional: strict glass look but standard title bar is safer for now
+        .windowResizability(.contentSize)
     }
 }
 
