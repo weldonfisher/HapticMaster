@@ -5,7 +5,10 @@
 
 **Feel Your Mac.** Immersive Haptic Feedback for Logitech MX Master Users.
 
-> 🌐 **Website:** [chamuka.is-a.dev](https://chamuka.is-a.dev)
+> 🌐 **Website:** [hapticmaster.vercel.app](https://hapticmaster.vercel.app/)
+
+> 🌐 **Contact:** [chamuka.is-a.dev](https://chamuka.is-a.dev)
+
 
 Haptic Master connects your macOS system events (notifications) and web browser interactions directly to your Logitech MX Master mouse's haptic motor. Experience a new layer of immersion with the "Liquid Glass" UI.
 
